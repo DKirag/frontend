@@ -44,7 +44,7 @@ function RegisterPage() {
         <form onSubmit={onSubmit}>
         <label htmlFor='username'>Nombre</label>
         <input type='text'
-        className='w-full bg-white-700 text-white px-4 py-2 rounded-md my-2'
+        className='w-full bg-white-700 text-black px-4 py-2 rounded-md my-2'
         placeholder='Nombre'
         {
             ...register("username", {required: true, minLength: 5})
@@ -58,7 +58,7 @@ function RegisterPage() {
         )}
         <label htmlFor='email'>Correo</label>
         <input type='email'
-        className='w-full bg-white-700 text-white px-4 py-2 rounded-md my-2'
+        className='w-full bg-white-700 text-black px-4 py-2 rounded-md my-2'
         placeholder='Correo'
         {
             ...register("email", {required: true})
@@ -68,7 +68,7 @@ function RegisterPage() {
         )}
         <label htmlFor='password'>Constraseña</label>
         <input type='password'
-        className='w-full bg-white-700 text-white px-4 py-2 rounded-md my-2'
+        className='w-full bg-white-700 text-black px-4 py-2 rounded-md my-2'
         placeholder='Contraseña'
         {
             ...register("password", {required: true, minLength: 6})
