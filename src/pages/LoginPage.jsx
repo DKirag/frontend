@@ -84,7 +84,7 @@ function LoginPage() {
         <IoLogIn size={30}/></button>
 
         <ReCaptcha
-        sitekey='6LfPSiopAAAAADanfNxfl1Qd3E8oN-ajJB10T9Q4'
+        sitekey='6LfCTSopAAAAAPPC3VE-hUXls7JmbR_xqw1RW0at'
             onChange={ (value)=> setCaptchaValue(value)}
             />
         </form>
