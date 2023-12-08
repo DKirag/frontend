@@ -45,7 +45,7 @@ function LoginPage() {
         <form onSubmit={onSubmit}>
         <label htmlFor='email'>Correo</label>
         <input type='email'
-        className='w-full bg-slate-700 text-white px-4 py-2 rounded-md my-2'
+        className='w-full bg-slate-700 text-black px-4 py-2 rounded-md my-2'
         placeholder='Correo'
     
         {
@@ -57,7 +57,7 @@ function LoginPage() {
         <label htmlFor='password'>Contraseña</label>
         <div className='flex justify-end items-center relative'>
         <input type={passwordShown? "text": "password"}
-        className='w-full bg-slate-700 text-white px-4 py-2 rounded-md my-2'
+        className='w-full bg-slate-700 text-black px-4 py-2 rounded-md my-2'
         placeholder='Contraseña'
         {
             ...register("password", {required: true, minLength: 6})
